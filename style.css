@@ -1,0 +1,82 @@
+body{
+    background-image: url(background.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+} /* per ridimensionare l'immagine senza rpeterla usare no repeat */
+   
+.container{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+    border-radius: 20px; /* per rendere tondi gli angoli */
+}
+
+header{
+    margin-top: 70px;
+    padding-bottom: 10px;
+    border-bottom: 2px;
+    margin-left: 70px;
+
+.logo-row{
+    text-align: center;
+}
+
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+h1{
+    color:#04C52E;
+} 
+
+  .prenotazione {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #box{
+    width: 100px;
+    height: 40px;
+  }
+
+  .button-container{
+    height: 80;
+    width: 100;
+    margin: auto;
+    background-color: #04C52E;
+  }
+
+  .posizione{
+    font-size: 8px;
+  }
+
+  .container-boxcharge{
+    height: 30px;
+    width: 200px;
+  align-self: self-end;
+  border-radius: 20px;
+    background-color: orangered;
+  }
+
+  .container-boxcharge2{
+    height: 30px;
+    width: 300px;
+  align-self: self-end;
+  border-radius: 20px;
+    background-color: #04C52E;
+  }
+
+  .container-boxcharge3{
+    height: 30px;
+    width: 100px;
+  align-self: self-end;
+  border-radius: 20px;
+    background-color: red;
+  }
